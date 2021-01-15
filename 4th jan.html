@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Java Script</title>
+  </head>
+  <body>
+    <p id="demo"></p>
+    <script>
+          var x = 6+5 + "Volvo";
+          document.getElementById("demo").innerHTML = x;
+</script>
+<p id="de"></p>
+<script>
+var x = "Volvo" + 16 + 4;
+document.getElementById("de").innerHTML = x;
+</script>
+<p id="mo"></p>
+
+<script>
+var x;         // Now x is undefined
+x = 8;         // Now x is a Number
+x = "Jeysha";      // Now x is a String
+
+document.getElementById("mo").innerHTML = x;
+</script>
+
+<p id="d"></p>
+
+<script>
+var answer1 = "It's alright";
+var answer2 = "She is called 'Jeysha'";
+var answer3 = 'She is called "Shaalini"';
+
+document.getElementById("d").innerHTML =
+answer1 + "<br>" +
+answer2 + "<br>" +
+answer3;
+</script>
+
+<p id="o"></p>
+
+<script>
+var x1 = 34.00;
+var x2 = 34;
+var x3 = 3.14;
+
+document.getElementById("o").innerHTML =
+x1 + "<br>" + x2 + "<br>" + x3;
+</script>
+
+<p id="k"></p>
+
+<script>
+var x = 5;
+var y = 5;
+var z = 6;
+document.getElementById("k").innerHTML =
+(x == y) + "<br>" + (x == z);
+</script>
+<p id="j"></p>
+
+<script>
+var cars = ["Audi","Volvo","BMW"];
+
+document.getElementById("j").innerHTML = cars[2];
+</script>
+<p id="c"></p>
+
+<script>
+var person = {
+  firstName : "Jeysha",
+  lastName  : "Kokilan",
+  age     : 21,
+  eyeColor  : "black"
+};
+
+document.getElementById("c").innerHTML =
+person.firstName + " is " + person.age + " years old.";
+</script>
+
+<p id="l"></p>
+
+<script>
+document.getElementById("l").innerHTML =
+typeof "" + "<br>" +
+typeof 4 + "<br>" +
+typeof "John Doe";
+</script>
+  </body>
+</html>
